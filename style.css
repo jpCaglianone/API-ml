@@ -1,0 +1,30 @@
+:root{
+  --cor-principal: rgb(242, 173, 24);
+  --cor-secundaria: rgb(9, 34, 159);
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+header{
+  height:15%;
+  width:100%;
+  background:var(--cor-principal);
+}
+header > ul{
+  display:flex;
+  list-style: none;
+}
+header > ul > li {
+  margin-left: 15px;
+}
+header > ul > li > a {
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-weight: bold;
+}
+select{
+  margin-top:2.5%;
+}
+option{
+}
